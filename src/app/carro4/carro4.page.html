@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-buttons slot="start"> 
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+      <ion-title>Nissan</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="warning">
+  <ion-card>
+    <img src="../../assets/nissan.jpg" />
+    <ion-card-header>
+      <ion-card-title>Nissan - GT-R</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      A linha 2020 do esportivo ainda não é uma nova geração e apenas recebeu melhorias em todas as versões. Hoje, a versão base entrega 572 cv, enquanto a de topo, NISMO, oferece 608 cv. As versões mais agressivas do Nissan GT-R, têm outras mudanças também. Além de mais potência, a Track Edition traz teto de fibra de carbono e freios Brembo com discos de carbono-cerâmica com maiores dimensões.
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+
+<ion-footer>
+  <ion-row>
+    <ion-col (click)="paginaAnterior()"><ion-icon name="arrow-back-outline" size="large"></ion-icon></ion-col>
+    <ion-col (click)="paginaHome()"><ion-icon name="home-outline" size="large"></ion-icon></ion-col>
+    <ion-col (click)="proximaPagina()"><ion-icon name="bookmark-outline" size="large"></ion-icon></ion-col>
+  </ion-row>
+</ion-footer>

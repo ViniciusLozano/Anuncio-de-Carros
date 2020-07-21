@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-buttons slot="start"> 
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+      <ion-title>Rede Social</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="warning">
+
+  <p>Nossas redes sociais</p>
+  
+<div class="rede">
+  <ion-item>
+    <ion-avatar slot="start">
+      <img src="../../assets/face.png">
+    </ion-avatar>
+    <a href="https://www.facebook.com">Facebook</a>
+  </ion-item>
+
+  <ion-item>
+    <ion-avatar slot="start">
+      <img src="../../assets/insta.png">
+    </ion-avatar>
+    <a href="https://www.instagram.com">Instagram</a>
+  </ion-item>
+
+  <ion-item>
+    <ion-avatar slot="start">
+      <img src="../../assets/din.jpg">
+    </ion-avatar>
+    <a href="https://www.linkedin.com">Linkedin</a>
+  </ion-item>
+
+  <ion-item>
+    <ion-avatar slot="start">
+      <img src="../../assets/app.png">
+    </ion-avatar>
+    <a href="https://www.whatsapp.com">WhatsApp</a>
+  </ion-item>
+
+</div>
+</ion-content>
+
+<ion-footer>
+  <ion-row>
+    <ion-col (click)="paginaAnterior()"><ion-icon name="flame-outline" size="large"></ion-icon></ion-col>
+    <ion-col (click)="paginaHome()"><ion-icon name="home-outline" size="large"></ion-icon></ion-col>
+    <ion-col (click)="proximaPagina()"><ion-icon name="call-outline" size="large"></ion-icon></ion-col>
+  </ion-row>
+</ion-footer>

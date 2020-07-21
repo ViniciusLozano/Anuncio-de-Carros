@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-buttons slot="start"> 
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+      <ion-title>Contato</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="warning"> 
+
+<div class="dados">
+  <ion-item>
+    <ion-label position="floating">Digite seu nome completo:</ion-label>
+    <ion-input type="text" id="n1" [(ngModel)]="n1" clearInput></ion-input>
+  </ion-item>
+
+<br>
+
+  <ion-item>
+    <ion-label position="floating">Digite sua data de nascimento:</ion-label>
+    <ion-input type="number/caracter" id="n2" [(ngModel)]="n2" clearInput></ion-input>
+  </ion-item>
+
+<br>
+
+  <ion-item>
+    <ion-label position="floating">Digite seu Email:</ion-label>
+    <ion-input type="text" id="n3" [(ngModel)]="n3" clearInput></ion-input>
+  </ion-item>
+
+<br>
+
+  <ion-item>
+    <ion-label position="floating">Digite sua senha:</ion-label>
+    <ion-input type="password" id="n4" [(ngModel)]="n4" clearInput></ion-input>
+  </ion-item>
+
+<br>
+
+</div>
+
+<ion-button name="enviar" color="success" expand="block" (click)="enviar()">Enviar</ion-button>
+
+</ion-content>
+
+<ion-footer>
+  <ion-row>
+    <ion-col (click)="paginaAnterior()"><ion-icon name="at-outline" size="large"></ion-icon></ion-col>
+    <ion-col (click)="paginaHome()"><ion-icon name="home-outline" size="large"></ion-icon></ion-col>
+  </ion-row>
+</ion-footer>

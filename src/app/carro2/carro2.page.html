@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-buttons slot="start"> 
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+      <ion-title>Rolls Royce</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="warning">
+  <ion-card>
+    <img src="../../assets/rolls-royce.jpg" />
+    <ion-card-header>
+      <ion-card-title>Rolls Royce - Phantom</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Para quem não gosta de barulho, a fabricante investiu no isolamento acústico do carro, que é 10% mais silencioso a 100 km/h que a última versão. Com relação à parte mecânica, o novo Phantom possui um motor V12. O sedã consegue acelerar de 0 a 100 Km/h em 5,3 segundos, com velocidade máxima de 250 km/h.
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+
+<ion-footer>
+  <ion-row>
+    <ion-col (click)="paginaAnterior()"><ion-icon name="arrow-back-outline" size="large"></ion-icon></ion-col>
+    <ion-col (click)="paginaHome()"><ion-icon name="home-outline" size="large"></ion-icon></ion-col>
+    <ion-col (click)="proximaPagina()"><ion-icon name="arrow-forward-outline" size="large"></ion-icon></ion-col>
+  </ion-row>
+</ion-footer>

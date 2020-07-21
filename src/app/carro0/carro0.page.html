@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-buttons slot="start"> 
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+      <ion-title>Tesla</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="warning">
+  <ion-card>
+    <img src="../../assets/tesla.jpg" />
+    <ion-card-header>
+      <ion-card-title>Tesla - Model 3</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Um carro elétrico vendido a um preço mais acessível.ossui um interior minimalista, e uma touchscreen de 15 polegadas serve como painel do carro. Ele tem navegação embutida, conexão Wi-Fi e 4G, e controle por voz. O Model 3 possui todos os sensores necessários para o Autopilot, sistema que toma o comando do volante e dirige por você.
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+
+<ion-footer>
+  <ion-row>
+    <ion-col (click)="paginaAnterior()"><ion-icon name="arrow-back-outline" size="large"></ion-icon></ion-col>
+    <ion-col (click)="paginaHome()"><ion-icon name="home-outline" size="large"></ion-icon></ion-col>
+    <ion-col (click)="proximaPagina()"><ion-icon name="arrow-forward-outline" size="large"></ion-icon></ion-col>
+  </ion-row>
+</ion-footer>

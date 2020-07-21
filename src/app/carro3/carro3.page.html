@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-buttons slot="start"> 
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+      <ion-title>Dodge</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="warning">
+  <ion-card>
+    <img src="../../assets/dodge.jpg" />
+    <ion-card-header>
+      <ion-card-title>Dodge - Charger</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      O modelo passa a oferecer o sedã produzido em série mais rápido e potente do mundo, O novo Dodge Charger Hellcat 2020 segue com o motor 6.2 V8 supercharger, que consegue desenvolver 716 cavalos de potência. Há ainda o Launch Assist, que utiliza sensores de velocidade nas rodas para analisa o comportamento do carro em largadas e, em questão de milissegundos, modifica a entrega de torque para recuperar a aderência.
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+
+<ion-footer>
+  <ion-row>
+    <ion-col (click)="paginaAnterior()"><ion-icon name="arrow-back-outline" size="large"></ion-icon></ion-col>
+    <ion-col (click)="paginaHome()"><ion-icon name="home-outline" size="large"></ion-icon></ion-col>
+    <ion-col (click)="proximaPagina()"><ion-icon name="arrow-forward-outline" size="large"></ion-icon></ion-col>
+  </ion-row>
+</ion-footer>

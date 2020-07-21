@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-buttons slot="start"> 
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+      <ion-title>Informações</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="warning">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Sobre</ion-card-title>
+    </ion-card-header>
+
+    <div>
+      O Carros+ é um aplicativo especializado em contratação de serviços que permite a divulgação de profissionais em diversos ramos, entre eles o da mecânica.  
+      Este aplicativo lhe mostrar como a história dos carros e de seus fabricantes. Assim como nas demais plataformas de serviço, os profissionais são devidamente avaliados, o que permite confiar em seu trabalho.
+    </div>
+  </ion-card>
+</ion-content>
+
+<ion-footer>
+  <ion-row>
+    <ion-col (click)="paginaAnterior()"><ion-icon name="car-sport-outline" size="large"></ion-icon></ion-col>
+    <ion-col (click)="paginaHome()"><ion-icon name="home-outline" size="large"></ion-icon></ion-col>
+    <ion-col (click)="proximaPagina()"><ion-icon name="flame-outline" size="large"></ion-icon></ion-col>
+  </ion-row>
+</ion-footer>

@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-buttons slot="start"> 
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+      <ion-title>Desenvolvedor</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="warning">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Vinicius Lozano</ion-card-title>
+    </ion-card-header>
+
+    <div>
+      <img src="../../assets/photo.jpg">
+      <p> Acreditamos no poder da transformação digital de reinventar o presente e o futuro. 
+      Descobrimos as formas mais eficientes de criar software, combinando tecnologia de ponta, metodologia ágil, design inteligente e os melhores profissionais reunidos em um time altamente produtivo. 
+      </p>
+    </div>
+  </ion-card>
+</ion-content>
+
+<ion-footer>
+  <ion-row>
+    <ion-col (click)="paginaAnterior()"><ion-icon name="bookmark-outline" size="large"></ion-icon></ion-col>
+    <ion-col (click)="paginaHome()"><ion-icon name="home-outline" size="large"></ion-icon></ion-col>
+    <ion-col (click)="proximaPagina()"><ion-icon name="at-outline" size="large"></ion-icon></ion-col>
+  </ion-row>
+</ion-footer>
